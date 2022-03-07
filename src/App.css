@@ -1,0 +1,84 @@
+.App{
+  background-color: #D4F1F4;
+  text-align: center;
+}
+textarea {
+  margin: 10px;
+  width: 500px;
+  padding: 5px;
+  height: 120px;
+}
+select {
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
+  height: 40px;
+}
+.forumform{
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  background-color: #0C2D48;
+  text-align: left;
+
+}
+.forumform button{
+  float: right;
+  background-color: #d3ccb5;
+}
+button{
+  margin: 8px;
+  padding: 10px;
+  background-color:#62819e;
+ font-weight: bold;
+  border-radius: 10px;
+}
+.textCenter{
+  text-align: center;
+}
+.deleteTopics{
+  display: inline-block;
+}
+.card{
+  background:linear-gradient(to left, #B1D4E0,#2E8BC0,#154063);
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px -5px 5px rgb(221, 218, 218), -10px 10px 10px #05445E;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  margin-top: 20px;
+}
+.deletesingle{
+  float: right;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
